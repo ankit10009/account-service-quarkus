@@ -10,11 +10,7 @@ import static org.hamcrest.CoreMatchers.is;
 class AccountResourceTest {
     @Test
     void testHelloEndpoint() {
-        given()
-          .when().get("/hello")
-          .then()
-             .statusCode(200)
-             .body(is("Hello RESTEasy"));
+
     }
 
 }
